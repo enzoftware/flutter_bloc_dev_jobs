@@ -1,5 +1,5 @@
-name: movies_bloc
-description: A new Flutter project.
+name: dev_jobs_bloc
+description: A new Flutter project to find new job oportunities fetching data from Github Jobs Api.
 
 # The following defines the version and build number for your application.
 # A version number is three numbers separated by dots, like 1.2.43
@@ -23,6 +23,12 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^0.1.2
+  bloc: ^0.9.5
+  flutter_bloc: ^0.7.1
+  rxdart: ^0.20.0
+  http: ^0.12.0+1
+  equatable: ^0.2.3
+  meta: ^1.1.6
 
 dev_dependencies:
   flutter_test:
