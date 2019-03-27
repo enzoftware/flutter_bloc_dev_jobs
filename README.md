@@ -1,6 +1,6 @@
-# movies_bloc
+# Dev Job Bloc
 
-A new Flutter project.
+A new Flutter project to find new job oportunities fetching data from Github Jobs Api.
 
 ## Getting Started
 
