@@ -6,7 +6,7 @@ import 'package:dev_jobs_bloc/ui/home_page_state.dart';
 class HomePageBloc extends Bloc<HomePageEvent, HomePageState> {
   final GithubJobsRepository repository;
 
-  HomePageBloc(this.repository);
+  HomePageBloc({this.repository});
 
   @override
   HomePageState get initialState => HomePageStateDefault();
